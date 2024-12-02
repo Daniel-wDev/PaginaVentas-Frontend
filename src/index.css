@@ -1,0 +1,104 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+/* <>
+
+      <main className="main-content p-0 col-12">
+        <div className="main-navbar bg-white sticky-top">
+          <div className="p-0 container-fluid"><nav className="align-items-stretch flex-md-nowrap p-0 navbar navbar-light">
+            <ul className="nav">
+              <li className="nav-item">
+                <a href="https://vitejs.dev" target="_blank">
+                 
+                </a>
+              </li>
+              <li className="nav-item">
+                <a href="https://react.dev" target="_blank">
+                  
+                </a>
+              </li>
+            </ul>
+          </nav>
+          </div>
+        </div>
+
+        <div className='main-content-container px-4 container-fluid'>
+          <div className="page-header py-4 no-gutters row">
+            <div className="text-left col-12">
+              <span className="text-uppercase page-subtitle">inventario</span>
+              <h3 className="page-title">Productos</h3>
+            </div>
+          </div>
+
+          <div className='row'>
+            <div className='col'>
+              <div className="mb-4 card card-small">
+                <div className="border-bottom card-header">
+                  <h6 className="m-0">Formulario de Productos</h6>
+                </div>
+                <div className="p-0 pb-3 card-body">
+                  <form action="">
+                    <div className='row'>
+                      <div className='col'>
+                        <input type="text" name="nombre" id="" placeholder='Nombre del producto' className='form-control' />
+                      </div>
+                      <div className='col'>
+                        <input type="text" name="descripcion" id="" placeholder='Descripcion del producto' className='form-control' />
+                      </div>
+                      <div className='col'>
+                        <input type="number" name="precio" id="" placeholder='Precio del producto' className='form-control' />
+                      </div>
+                      <div className='col'>
+                        <button type="submit" className='btn btn-primary'>Guardar</button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='row'>
+            <div className='col'>
+              <div className="card mb-4">
+                <div className="card-header border-bottom">
+                  <h6 className="m-0">Lista de productos</h6>
+                </div>
+                <div className="card-body p-0 pb-3">
+                  <table className="table mb-0">
+                    <thead className="bg-light">
+                      <tr>
+                        <th scope='col'>Nombre</th>
+                        <th scope='col'>Descripcion</th>
+                        <th scope='col'>Precio</th>
+                        <th scope='col'>Accion</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {
+                        productos.map(producto => (
+                          <tr key={producto.id}>
+                            <td>{producto.nombre}</td>
+                            <td>{producto.descripcion}</td>
+                            <td>{producto.precio}</td>
+                            <td><a href="" className='btn btn-sm btn-danger'>Eliminar</a></td>
+                          </tr>
+                        ))
+                      }
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <footer className="main-footer d-flex p-2 px-3 bg-white border-top">
+          <div className="container">
+            <div className="row">
+              <span className="copyright ml-auto my-auto mr-2">Copyright © 2018 DesignRevision</span>
+            </div>
+          </div>
+        </footer>
+      </main>
+
+
+    </> */
